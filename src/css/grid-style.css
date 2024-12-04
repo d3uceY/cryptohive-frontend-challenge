@@ -1,0 +1,11 @@
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.5rem;
+
+}
+
+.gallery-grid-container::-webkit-scrollbar {
+  display: none;
+}
+
